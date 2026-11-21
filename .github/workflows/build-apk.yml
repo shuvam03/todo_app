@@ -71,3 +71,18 @@ jobs:
         with:
           name: Test-Report
           path: test-report/
+      - name: Save test report into the repo
+        if: always()
+        run: |
+          if [ -d test-report ]; then
+            rm -rf reports && mkdir reports
+            cp test-report/* reports/ 2>/dev/null || true
+            rm -f reports/logcat.txt
+            tail -n 400 test-report/logcat.txt > reports/logcat-tail.txt 2>/dev/null || true
+            git config user.name "github-actions"
+            git config user.email "actions@github.com"
+            git add -f reports
+            git commit -m "Test report [skip ci]" || true
+            git pull --rebase origin main || true
+            git push || true
+          fi
