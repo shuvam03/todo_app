@@ -1,0 +1,400 @@
+11-21 18:41:42.690   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.timezonedetector.location.LocationTimeZoneManagerService$Lifecycle took to complete: 0ms
+11-21 18:41:42.690   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.search.SearchManagerService$Lifecycle
+11-21 18:41:42.690   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.search.SearchManagerService$Lifecycle took to complete: 0ms
+11-21 18:41:42.690   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.wallpaper.WallpaperManagerService$Lifecycle
+11-21 18:41:42.690   490   490 I WallpaperManagerService: No static wallpaper imagery; defaults will be shown
+11-21 18:41:42.690   490   490 V WallpaperManagerService: bindWallpaperComponentLocked: componentName=ComponentInfo{com.android.systemui/com.android.systemui.wallpapers.ImageWallpaper}
+11-21 18:41:42.690   490   490 D WallpaperManagerService: WPMS.bindWallpaperComponentLocked-ComponentInfo{com.android.systemui/com.android.systemui.wallpapers.ImageWallpaper}
+11-21 18:41:42.692   490   490 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10157; state: DISABLED
+11-21 18:41:42.692   490   523 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10157; state: ENABLED
+11-21 18:41:42.692   490   523 W ActivityManager: com.android.systemui inode == 0 (b/152760674)
+11-21 18:41:42.692   490   523 W ActivityManager: com.google.android.gms inode == 0 (b/152760674)
+11-21 18:41:42.692   490   490 V WallpaperManagerService: WPMS.bindWallpaperComponentLocked-ComponentInfo{com.android.systemui/com.android.systemui.wallpapers.ImageWallpaper} took to complete: 2ms
+11-21 18:41:42.692   490   490 W WallpaperManagerService: no current wallpaper -- first boot?
+11-21 18:41:42.692   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.wallpaper.WallpaperManagerService$Lifecycle took to complete: 3ms
+11-21 18:41:42.692   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.wallpapereffectsgeneration.WallpaperEffectsGenerationManagerService
+11-21 18:41:42.692   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.wallpapereffectsgeneration.WallpaperEffectsGenerationManagerService took to complete: 0ms
+11-21 18:41:42.692   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.audio.AudioService$Lifecycle
+11-21 18:41:42.693   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.audio.AudioService$Lifecycle took to complete: 1ms
+11-21 18:41:42.693   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.soundtrigger_middleware.SoundTriggerMiddlewareService$Lifecycle
+11-21 18:41:42.693   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.soundtrigger_middleware.SoundTriggerMiddlewareService$Lifecycle took to complete: 0ms
+11-21 18:41:42.693   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.DockObserver
+11-21 18:41:42.693   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.DockObserver took to complete: 0ms
+11-21 18:41:42.693   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.midi.MidiService$Lifecycle
+11-21 18:41:42.693   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.midi.MidiService$Lifecycle took to complete: 0ms
+11-21 18:41:42.693   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.adb.AdbService$Lifecycle
+11-21 18:41:42.693   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.adb.AdbService$Lifecycle took to complete: 0ms
+11-21 18:41:42.693   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.usb.UsbService$Lifecycle
+11-21 18:41:42.693   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.usb.UsbService$Lifecycle took to complete: 0ms
+11-21 18:41:42.693   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.twilight.TwilightService
+11-21 18:41:42.693   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.twilight.TwilightService took to complete: 0ms
+11-21 18:41:42.693   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.display.color.ColorDisplayService
+11-21 18:41:42.693   490   564 D SystemServerTimingAsync: InitThreadPoolExec:UsbService$Lifecycle#onBootPhase
+11-21 18:41:42.693   490   564 D SystemServerInitThreadPool: Started executing UsbService$Lifecycle#onBootPhase
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.display.color.ColorDisplayService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.job.JobSchedulerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.job.JobSchedulerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.soundtrigger.SoundTriggerService
+11-21 18:41:42.694   490   490 D SoundTriggerService: onBootPhase: 550 : false
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.soundtrigger.SoundTriggerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.trust.TrustManagerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.trust.TrustManagerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.backup.BackupManagerService$Lifecycle
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.backup.BackupManagerService$Lifecycle took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.appwidget.AppWidgetService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.appwidget.AppWidgetService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.voiceinteraction.VoiceInteractionManagerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.voiceinteraction.VoiceInteractionManagerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.apphibernation.AppHibernationService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.apphibernation.AppHibernationService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.GestureLauncherService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.GestureLauncherService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.SensorNotificationService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.SensorNotificationService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.emergency.EmergencyAffordanceService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.emergency.EmergencyAffordanceService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.blob.BlobStoreManagerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.blob.BlobStoreManagerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.dreams.DreamManagerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.dreams.DreamManagerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.print.PrintManagerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.print.PrintManagerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.security.AttestationVerificationManagerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.security.AttestationVerificationManagerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.companion.CompanionDeviceManagerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.companion.CompanionDeviceManagerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.companion.virtual.VirtualDeviceManagerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.companion.virtual.VirtualDeviceManagerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.restrictions.RestrictionsManagerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.restrictions.RestrictionsManagerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.media.MediaSessionService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.media.MediaSessionService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.media.MediaResourceMonitorService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.media.MediaResourceMonitorService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.biometrics.sensors.fingerprint.FingerprintService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.biometrics.sensors.fingerprint.FingerprintService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.biometrics.BiometricService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.biometrics.BiometricService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.biometrics.AuthService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.biometrics.AuthService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.pm.ShortcutService$Lifecycle
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.pm.ShortcutService$Lifecycle took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.pm.LauncherAppsService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.pm.LauncherAppsService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.pm.CrossProfileAppsService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.pm.CrossProfileAppsService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.people.PeopleService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.people.PeopleService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.media.metrics.MediaMetricsManagerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.media.metrics.MediaMetricsManagerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.media.projection.MediaProjectionManagerService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.media.projection.MediaProjectionManagerService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.slice.SliceManagerService$Lifecycle
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.slice.SliceManagerService$Lifecycle took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.stats.StatsCompanion$Lifecycle
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.stats.StatsCompanion$Lifecycle took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.scheduling.RebootReadinessManagerService$Lifecycle
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.scheduling.RebootReadinessManagerService$Lifecycle took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.stats.pull.StatsPullAtomService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.stats.pull.StatsPullAtomService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.stats.bootstrap.StatsBootstrapAtomService$Lifecycle
+11-21 18:41:42.694   319   319 E android.hardware.usb@1.0-service: Failed to open /sys/class/dual_role_usb
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.stats.bootstrap.StatsBootstrapAtomService$Lifecycle took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.incident.IncidentCompanionService
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.incident.IncidentCompanionService took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.sdksandbox.SdkSandboxManagerService$Lifecycle
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.sdksandbox.SdkSandboxManagerService$Lifecycle took to complete: 0ms
+11-21 18:41:42.694   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.adservices.AdServicesManagerService$Lifecycle
+11-21 18:41:42.694   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.adservices.AdServicesManagerService$Lifecycle took to complete: 0ms
+11-21 18:41:42.695   286   286 I Zygote  : Entering forkRepeatedly native zygote loop
+11-21 18:41:42.697   286   286 D Zygote  : Forked child process 764
+11-21 18:41:42.698   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.MmsServiceBroker
+11-21 18:41:42.698   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.MmsServiceBroker took to complete: 0ms
+11-21 18:41:42.698   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.autofill.AutofillManagerService
+11-21 18:41:42.698   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.autofill.AutofillManagerService took to complete: 0ms
+11-21 18:41:42.698   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.translation.TranslationManagerService
+11-21 18:41:42.698   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.translation.TranslationManagerService took to complete: 0ms
+11-21 18:41:42.698   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.clipboard.ClipboardService
+11-21 18:41:42.698   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.clipboard.ClipboardService took to complete: 0ms
+11-21 18:41:42.698   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.appbinding.AppBindingService$Lifecycle
+11-21 18:41:42.699   490   564 D SystemServerInitThreadPool: Finished executing UsbService$Lifecycle#onBootPhase
+11-21 18:41:42.699   490   564 V SystemServerTimingAsync: InitThreadPoolExec:UsbService$Lifecycle#onBootPhase took to complete: 5ms
+11-21 18:41:42.699   490   724 E UsbPortManager: port status enquiry failed
+11-21 18:41:42.699   490   712 D BluetoothHeadset: Binding service...
+11-21 18:41:42.699   490   523 I ActivityManager: Start proc 764:com.android.systemui/u0a157 for service {com.android.systemui/com.android.systemui.wallpapers.ImageWallpaper}
+11-21 18:41:42.699   490   490 I AppBindingService: Updating constants with: null
+11-21 18:41:42.699   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.appbinding.AppBindingService$Lifecycle took to complete: 1ms
+11-21 18:41:42.699   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.tracing.TracingServiceProxy
+11-21 18:41:42.699   490   490 V SystemServerTiming: OnBootPhase_550_com.android.server.tracing.TracingServiceProxy took to complete: 0ms
+11-21 18:41:42.699   490   490 D SystemServerTiming: OnBootPhase_550_com.android.server.policy.PermissionPolicyService
+11-21 18:41:42.699   490   490 D SystemServerTiming: Permission_grant_default_permissions-0
+11-21 18:41:42.699   490   712 D BluetoothManagerService: Trying to bind to profile: 1, while Bluetooth was disabled
+11-21 18:41:42.699   490   712 D BluetoothA2dp: Binding service...
+11-21 18:41:42.699   490   712 D BluetoothManagerService: Trying to bind to profile: 2, while Bluetooth was disabled
+11-21 18:41:42.699   490   712 D BluetoothLeAudio: Binding service...
+11-21 18:41:42.699   490   712 D BluetoothManagerService: Trying to bind to profile: 22, while Bluetooth was disabled
+11-21 18:41:42.700   490   709 I AS.AudioDeviceInventory: removePreferredDevicesForStrategySync, strategy: 15
+11-21 18:41:42.700   490   709 I AS.AudioDeviceInventory: removePreferredDevicesForStrategySync, strategy: 18
+11-21 18:41:42.701   490   511 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10168; state: DISABLED
+11-21 18:41:42.701   490   511 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10168; state: DISABLED
+11-21 18:41:42.702   764   764 I ndroid.systemui: Using CollectorTypeCC GC.
+11-21 18:41:42.702   490   511 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10168; state: DISABLED
+11-21 18:41:42.702   490   511 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10168; state: ENABLED
+11-21 18:41:42.702   764   764 W ndroid.systemui: Unexpected CPU variant for x86: x86_64.
+11-21 18:41:42.702   764   764 W ndroid.systemui: Known variants: atom, sandybridge, silvermont, kabylake, default
+11-21 18:41:42.702   490   523 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10168; state: ENABLED
+11-21 18:41:42.702   490   523 W ActivityManager: com.google.android.permissioncontroller inode == 0 (b/152760674)
+11-21 18:41:42.702   490   523 W ActivityManager: com.google.android.gms inode == 0 (b/152760674)
+11-21 18:41:42.705   286   286 D Zygote  : Forked child process 768
+11-21 18:41:42.705   490   523 I ActivityManager: Start proc 768:com.google.android.permissioncontroller/u0a168 for service {com.google.android.permissioncontroller/com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl}
+11-21 18:41:42.705   490   490 D SystemServerTiming: Permission_callback_waiting-0
+11-21 18:41:42.708   378   395 I adbd    : jdwp connection from 764
+11-21 18:41:42.709   346   468 I AudioFlinger: systemReady
+11-21 18:41:42.711   490   687 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10157; state: DISABLED
+11-21 18:41:42.711   490   687 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10157; state: DISABLED
+11-21 18:41:42.718   768   768 I ssioncontroller: Using CollectorTypeCC GC.
+11-21 18:41:42.718   768   768 W ssioncontroller: Unexpected CPU variant for x86: x86_64.
+11-21 18:41:42.718   768   768 W ssioncontroller: Known variants: atom, sandybridge, silvermont, kabylake, default
+11-21 18:41:42.721   378   395 I adbd    : jdwp connection from 768
+11-21 18:41:42.722   490   756 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10168; state: DISABLED
+11-21 18:41:42.722   490   756 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10168; state: DISABLED
+11-21 18:41:42.724   764   764 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10157; state: ENABLED
+11-21 18:41:42.732   764   764 D nativeloader: Configuring classloader-namespace-shared for other apk /system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk. target_sdk_version=33, uses_libraries=, library_path=/system_ext/priv-app/SystemUIGoogle/lib/x86_64:/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk!/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user_de/0/com.android.systemui:/system_ext/priv-app/SystemUIGoogle:/system/lib64:/system_ext/lib64
+11-21 18:41:42.740   764   764 V GraphicsEnvironment: ANGLE Developer option for 'com.android.systemui' set to: 'default'
+11-21 18:41:42.740   764   764 V GraphicsEnvironment: ANGLE GameManagerService for com.android.systemui: false
+11-21 18:41:42.740   764   764 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-21 18:41:42.741   764   764 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-21 18:41:42.741   764   764 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-21 18:41:42.741   764   764 V SystemUIService: SystemUIApplication constructed.
+11-21 18:41:42.743   490   756 W StorageManagerService: No primary storage defined yet; hacking together a stub
+11-21 18:41:42.747   434   467 D MediaCodecList: Allowing only non-surface-encoder OMX codecs
+11-21 18:41:42.748   126   126 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmxStore/default in either framework or device VINTF manifest.
+11-21 18:41:42.748   434   467 E OmxInfoBuilder: Cannot find an IOmxStore service.
+11-21 18:41:42.748   434   467 D MediaCodecList: ignored failed builder
+11-21 18:41:42.749   764   764 V WindowManagerShell: Adding init callback for DisplayChangeController
+11-21 18:41:42.749   764   764 V WindowManagerShell: Adding init callback for DisplayController
+11-21 18:41:42.749   764   764 V WindowManagerShell: Adding init callback for DisplayInsetsController
+11-21 18:41:42.749   764   764 V WindowManagerShell: Adding init callback for DisplayImeController
+11-21 18:41:42.749   764   764 V WindowManagerShell: Adding init callback for ShellController
+11-21 18:41:42.750   434   467 I Codec2Client: Available Codec2 services: "default" "software"
+11-21 18:41:42.751   768   768 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10168; state: ENABLED
+11-21 18:41:42.752   313   369 I GoldfishComponentStore: in init
+11-21 18:41:42.752   313   369 I GoldfishComponentStore: loading dll of path libcodec2_goldfish_avcdec.so
+11-21 18:41:42.754   764   764 V WindowManagerShell: Adding init callback for DragAndDropController
+11-21 18:41:42.758   313   369 I GoldfishComponentStore: Create()
+11-21 18:41:42.758   313   369 I GoldfishComponentStore: created interface
+11-21 18:41:42.759   313   369 I GoldfishComponentStore: in ~ComponentModule
+11-21 18:41:42.759   313   369 I GoldfishComponentStore: unloading dll
+11-21 18:41:42.759   313   369 I GoldfishComponentStore: in init
+11-21 18:41:42.759   313   369 I GoldfishComponentStore: loading dll of path libcodec2_goldfish_hevcdec.so
+11-21 18:41:42.759   313   369 I GoldfishComponentStore: Create()
+11-21 18:41:42.760   313   369 I GoldfishComponentStore: created interface
+11-21 18:41:42.760   313   369 I GoldfishComponentStore: in ~ComponentModule
+11-21 18:41:42.760   313   369 I GoldfishComponentStore: unloading dll
+11-21 18:41:42.760   313   369 I GoldfishComponentStore: in init
+11-21 18:41:42.760   313   369 I GoldfishComponentStore: loading dll of path libcodec2_goldfish_vp8dec.so
+11-21 18:41:42.760   768   768 D nativeloader: Configuring classloader-namespace-shared for other apk /system_ext/framework/androidx.window.extensions.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/apex/com.android.permission/priv-app/GooglePermissionController@331710050/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user_de/0/com.google.android.permissioncontroller:/apex/com.android.permission/priv-app/GooglePermissionController@331710050:/system/lib64:/system_ext/lib64
+11-21 18:41:42.760   313   369 I GoldfishComponentStore: Create()
+11-21 18:41:42.761   313   369 I C2GoldfishVpxDec: platform store is 0x7558149e9ac8, reflector is 0x7557b49e2958
+11-21 18:41:42.761   313   369 I GoldfishComponentStore: created interface
+11-21 18:41:42.761   313   369 I GoldfishComponentStore: in ~ComponentModule
+11-21 18:41:42.761   313   369 I GoldfishComponentStore: unloading dll
+11-21 18:41:42.761   313   369 I GoldfishComponentStore: in init
+11-21 18:41:42.761   313   369 I GoldfishComponentStore: loading dll of path libcodec2_goldfish_vp9dec.so
+11-21 18:41:42.761   313   369 I GoldfishComponentStore: Create()
+11-21 18:41:42.761   313   369 I C2GoldfishVpxDec: platform store is 0x7558149ea5c8, reflector is 0x7557b49e34b8
+11-21 18:41:42.761   313   369 I GoldfishComponentStore: created interface
+11-21 18:41:42.761   313   369 I GoldfishComponentStore: in ~ComponentModule
+11-21 18:41:42.761   313   369 I GoldfishComponentStore: unloading dll
+11-21 18:41:42.762   764   764 V WindowManagerShell: Adding init callback for CompatUIController
+11-21 18:41:42.769   443   463 V C2Store : in init
+11-21 18:41:42.769   443   463 V C2Store : loading dll
+11-21 18:41:42.778   768   768 D nativeloader: Configuring classloader-namespace-shared for other apk /system_ext/framework/androidx.window.sidecar.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/apex/com.android.permission/priv-app/GooglePermissionController@331710050/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user_de/0/com.google.android.permissioncontroller:/apex/com.android.permission/priv-app/GooglePermissionController@331710050:/system/lib64:/system_ext/lib64
+11-21 18:41:42.786   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.787   443   463 V C2Store : unloading dll
+11-21 18:41:42.787   443   463 V C2Store : in init
+11-21 18:41:42.787   443   463 V C2Store : loading dll
+11-21 18:41:42.787   764   764 V WindowManagerShell: Adding init callback for RecentTasksController
+11-21 18:41:42.790   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.791   764   764 V WindowManagerShell: Adding init callback for ShellTaskOrganizer
+11-21 18:41:42.791   443   463 V C2Store : unloading dll
+11-21 18:41:42.791   443   463 V C2Store : in init
+11-21 18:41:42.791   443   463 V C2Store : loading dll
+11-21 18:41:42.795   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.795   768   768 D nativeloader: Configuring classloader-namespace-shared for other apk /system/framework/org.apache.http.legacy.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/apex/com.android.permission/priv-app/GooglePermissionController@331710050/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user_de/0/com.google.android.permissioncontroller:/apex/com.android.permission/priv-app/GooglePermissionController@331710050:/system/lib64:/system_ext/lib64
+11-21 18:41:42.795   443   463 V C2Store : unloading dll
+11-21 18:41:42.795   443   463 V C2Store : in init
+11-21 18:41:42.795   443   463 V C2Store : loading dll
+11-21 18:41:42.797   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.797   443   463 V C2Store : unloading dll
+11-21 18:41:42.797   443   463 V C2Store : in init
+11-21 18:41:42.797   443   463 V C2Store : loading dll
+11-21 18:41:42.800   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.801   443   463 V C2Store : unloading dll
+11-21 18:41:42.801   443   463 V C2Store : in init
+11-21 18:41:42.801   443   463 V C2Store : loading dll
+11-21 18:41:42.804   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.804   768   768 D nativeloader: Configuring classloader-namespace-shared for other apk /apex/com.android.permission/priv-app/GooglePermissionController@331710050/GooglePermissionController.apk. target_sdk_version=33, uses_libraries=, library_path=/apex/com.android.permission/priv-app/GooglePermissionController@331710050/lib/x86_64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user_de/0/com.google.android.permissioncontroller:/apex/com.android.permission/priv-app/GooglePermissionController@331710050:/system/lib64:/system_ext/lib64
+11-21 18:41:42.804   443   463 V C2Store : unloading dll
+11-21 18:41:42.804   443   463 V C2Store : in init
+11-21 18:41:42.804   443   463 V C2Store : loading dll
+11-21 18:41:42.809   443   463 I mediaswcodec: missing struct descriptor #Param::CoreIndex(--001) for field red of struct #Param::CoreIndex(--002)
+11-21 18:41:42.809   764   764 V WindowManagerShell: Adding init callback for OneHandedController
+11-21 18:41:42.811   443   463 I mediaswcodec: missing struct descriptor #Param::CoreIndex(--001) for field green of struct #Param::CoreIndex(--002)
+11-21 18:41:42.811   443   463 I mediaswcodec: missing struct descriptor #Param::CoreIndex(--001) for field blue of struct #Param::CoreIndex(--002)
+11-21 18:41:42.811   443   463 I mediaswcodec: missing struct descriptor #Param::CoreIndex(--001) for field white of struct #Param::CoreIndex(--002)
+11-21 18:41:42.812   126   126 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-21 18:41:42.817   443   463 I Gralloc4: mapper 4.x is not supported
+11-21 18:41:42.830   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.830   443   463 V C2Store : unloading dll
+11-21 18:41:42.830   443   463 V C2Store : in init
+11-21 18:41:42.830   443   463 V C2Store : loading dll
+11-21 18:41:42.837   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.837   443   463 V C2Store : unloading dll
+11-21 18:41:42.837   443   463 V C2Store : in init
+11-21 18:41:42.837   443   463 V C2Store : loading dll
+11-21 18:41:42.841   443   463 I mediaswcodec: missing struct descriptor #Param::CoreIndex(--004) for field values of struct #Param::CoreIndex(F-12004)
+11-21 18:41:42.841   443   463 I mediaswcodec: missing struct descriptor #Param::CoreIndex(--1812) for field values of struct #Param::CoreIndex(F-11812)
+11-21 18:41:42.841   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.841   443   463 V C2Store : unloading dll
+11-21 18:41:42.841   443   463 V C2Store : in init
+11-21 18:41:42.841   443   463 V C2Store : loading dll
+11-21 18:41:42.846   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.846   443   463 V C2Store : unloading dll
+11-21 18:41:42.846   443   463 V C2Store : in init
+11-21 18:41:42.846   443   463 V C2Store : loading dll
+11-21 18:41:42.850   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.850   443   463 V C2Store : unloading dll
+11-21 18:41:42.850   443   463 V C2Store : in init
+11-21 18:41:42.850   443   463 V C2Store : loading dll
+11-21 18:41:42.851   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.851   443   463 V C2Store : unloading dll
+11-21 18:41:42.851   443   463 V C2Store : in init
+11-21 18:41:42.851   443   463 V C2Store : loading dll
+11-21 18:41:42.851   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.851   443   463 V C2Store : unloading dll
+11-21 18:41:42.851   443   463 V C2Store : in init
+11-21 18:41:42.851   443   463 V C2Store : loading dll
+11-21 18:41:42.852   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.852   443   463 V C2Store : unloading dll
+11-21 18:41:42.852   443   463 V C2Store : in init
+11-21 18:41:42.852   443   463 V C2Store : loading dll
+11-21 18:41:42.852   768   768 V GraphicsEnvironment: ANGLE Developer option for 'com.google.android.permissioncontroller' set to: 'default'
+11-21 18:41:42.853   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.853   443   463 V C2Store : unloading dll
+11-21 18:41:42.853   443   463 V C2Store : in init
+11-21 18:41:42.853   443   463 V C2Store : loading dll
+11-21 18:41:42.853   768   768 V GraphicsEnvironment: ANGLE GameManagerService for com.google.android.permissioncontroller: false
+11-21 18:41:42.853   768   768 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-21 18:41:42.854   768   768 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-21 18:41:42.854   768   768 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-21 18:41:42.855   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.855   443   463 V C2Store : unloading dll
+11-21 18:41:42.855   443   463 V C2Store : in init
+11-21 18:41:42.855   443   463 V C2Store : loading dll
+11-21 18:41:42.856   764   764 V WindowManagerShell: Adding init callback for DefaultTransitionHandler
+11-21 18:41:42.856   764   764 V WindowManagerShell: addHandler: Default
+11-21 18:41:42.856   764   764 V WindowManagerShell: addHandler: Remote
+11-21 18:41:42.856   764   764 V WindowManagerShell: Adding init callback for Transitions
+11-21 18:41:42.858   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.858   443   463 V C2Store : unloading dll
+11-21 18:41:42.858   443   463 V C2Store : in init
+11-21 18:41:42.858   443   463 V C2Store : loading dll
+11-21 18:41:42.859   764   764 V WindowManagerShell: Adding init callback for BubbleController
+11-21 18:41:42.861   764   764 V WindowManagerShell: Adding init callback for SplitScreenController
+11-21 18:41:42.862   490   756 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10157; state: DISABLED
+11-21 18:41:42.862   443   463 I mediaswcodec: missing struct descriptor #Param::CoreIndex(--004) for field values of struct #Param::CoreIndex(F-12004)
+11-21 18:41:42.862   764   764 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10157; state: ENABLED
+11-21 18:41:42.862   443   463 I mediaswcodec: missing struct descriptor #Param::CoreIndex(--1812) for field values of struct #Param::CoreIndex(F-11812)
+11-21 18:41:42.862   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.862   443   463 V C2Store : unloading dll
+11-21 18:41:42.862   443   463 V C2Store : in init
+11-21 18:41:42.862   443   463 V C2Store : loading dll
+11-21 18:41:42.864   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.864   443   463 V C2Store : unloading dll
+11-21 18:41:42.864   443   463 V C2Store : in init
+11-21 18:41:42.864   443   463 V C2Store : loading dll
+11-21 18:41:42.866   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.866   443   463 V C2Store : unloading dll
+11-21 18:41:42.866   443   463 V C2Store : in init
+11-21 18:41:42.866   443   463 V C2Store : loading dll
+11-21 18:41:42.867   764   764 V WindowManagerShell: Adding init callback for PipTouchHandler
+11-21 18:41:42.867   764   764 V WindowManagerShell: Adding init callback for DevicePostureController
+11-21 18:41:42.867   764   764 V WindowManagerShell: Adding init callback for TabletopModeController
+11-21 18:41:42.867   764   764 V WindowManagerShell: Adding init callback for PipController
+11-21 18:41:42.868   764   764 V WindowManagerShell: Adding init callback for FullscreenTaskListener
+11-21 18:41:42.869   764   764 V WindowManagerShell: Adding init callback for StartingWindowController
+11-21 18:41:42.869   764   764 V WindowManagerShell: Adding init callback for ProtoLogController
+11-21 18:41:42.869   764   764 V WindowManagerShell: Adding init callback for KidsModeTaskOrganizer
+11-21 18:41:42.872   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.872   443   463 V C2Store : unloading dll
+11-21 18:41:42.872   443   463 V C2Store : in init
+11-21 18:41:42.872   443   463 V C2Store : loading dll
+11-21 18:41:42.874   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.874   443   463 V C2Store : unloading dll
+11-21 18:41:42.874   443   463 V C2Store : in init
+11-21 18:41:42.874   443   463 V C2Store : loading dll
+11-21 18:41:42.876   764   764 V WindowManagerShell: Adding init callback for BackAnimationController
+11-21 18:41:42.876   764   794 V WindowManagerShell: Initializing Shell Components: 23
+11-21 18:41:42.877   764   794 V WindowManagerShell: 	DisplayChangeController init took 1ms
+11-21 18:41:42.878   764   794 V WindowManagerShell: 	DisplayController init took 1ms
+11-21 18:41:42.878   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.878   443   463 V C2Store : unloading dll
+11-21 18:41:42.878   443   463 V C2Store : in init
+11-21 18:41:42.878   443   463 V C2Store : loading dll
+11-21 18:41:42.880   764   794 V WindowManagerShell: 	DisplayInsetsController init took 1ms
+11-21 18:41:42.880   764   794 V WindowManagerShell: 	DisplayImeController init took 0ms
+11-21 18:41:42.880   764   794 V WindowManagerShell: Adding dump callback for ShellController
+11-21 18:41:42.880   764   794 V WindowManagerShell: 	ShellController init took 1ms
+11-21 18:41:42.880   764   794 V WindowManagerShell: 	DragAndDropController init took 0ms
+11-21 18:41:42.880   764   794 V WindowManagerShell: Adding command class compatui for CompatUIShellCommandHandler
+11-21 18:41:42.880   764   794 V WindowManagerShell: 	CompatUIController init took 0ms
+11-21 18:41:42.880   764   794 V WindowManagerShell: Adding external interface from RecentTasksController with key extra_shell_recent_tasks
+11-21 18:41:42.880   764   794 V WindowManagerShell: Adding dump callback for RecentTasksController
+11-21 18:41:42.880   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.880   443   463 V C2Store : unloading dll
+11-21 18:41:42.880   443   463 V C2Store : in init
+11-21 18:41:42.880   443   463 V C2Store : loading dll
+11-21 18:41:42.880   764   794 V WindowManagerShell: 	RecentTasksController init took 0ms
+11-21 18:41:42.880   764   794 V WindowManagerShell: Adding dump callback for ShellTaskOrganizer
+11-21 18:41:42.881   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.881   443   463 V C2Store : unloading dll
+11-21 18:41:42.881   443   463 V C2Store : in init
+11-21 18:41:42.881   443   463 V C2Store : loading dll
+11-21 18:41:42.882   764   794 V WindowManagerShell: 	ShellTaskOrganizer init took 2ms
+11-21 18:41:42.882   764   794 V WindowManagerShell: Adding dump callback for OneHandedController
+11-21 18:41:42.884   366   748 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10157 => granted (264 us)
+11-21 18:41:42.884   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.884   443   463 V C2Store : unloading dll
+11-21 18:41:42.884   443   463 V C2Store : in init
+11-21 18:41:42.884   443   463 V C2Store : loading dll
+11-21 18:41:42.884   366   748 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10157 => granted (146 us)
+11-21 18:41:42.885   764   794 V WindowManagerShell: Adding external interface from OneHandedController with key extra_shell_one_handed
+11-21 18:41:42.885   764   794 V WindowManagerShell: 	OneHandedController init took 3ms
+11-21 18:41:42.888   764   794 V WindowManagerShell: 	DefaultTransitionHandler init took 3ms
+11-21 18:41:42.888   764   794 V WindowManagerShell: Adding external interface from Transitions with key extra_shell_shell_transitions
+11-21 18:41:42.889   764   794 V WindowManagerShell: 	Transitions init took 0ms
+11-21 18:41:42.891   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.891   443   463 V C2Store : unloading dll
+11-21 18:41:42.891   443   463 V C2Store : in init
+11-21 18:41:42.891   443   463 V C2Store : loading dll
+11-21 18:41:42.892   443   463 I C2SoftVpxEnc: setting temporal layering 0 + 0
+11-21 18:41:42.892   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.892   443   463 V C2Store : unloading dll
+11-21 18:41:42.893   443   463 V C2Store : in init
+11-21 18:41:42.893   443   463 V C2Store : loading dll
+11-21 18:41:42.893   764   794 V WindowManagerShell: Adding dump callback for BubbleController
+11-21 18:41:42.893   764   794 V WindowManagerShell: 	BubbleController init took 5ms
+11-21 18:41:42.893   764   794 V WindowManagerShell: Adding dump callback for SplitScreenController
+11-21 18:41:42.893   764   794 V WindowManagerShell: Adding command class splitscreen for SplitScreenController
+11-21 18:41:42.893   764   794 V WindowManagerShell: Adding external interface from SplitScreenController with key extra_shell_split_screen
+11-21 18:41:42.896   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.896   443   463 V C2Store : unloading dll
+11-21 18:41:42.896   443   463 V C2Store : in init
+11-21 18:41:42.896   443   463 V C2Store : loading dll
+11-21 18:41:42.897   443   463 I C2SoftVpxEnc: setting temporal layering 0 + 0
+11-21 18:41:42.897   443   463 V C2Store : in ~ComponentModule
+11-21 18:41:42.897   443   463 V C2Store : unloading dll
+11-21 18:41:42.900   434   467 D MediaCodecsXmlParser: parsing /apex/com.android.media.swcodec/etc/media_codecs.xml...
+11-21 18:41:42.901   434   467 D MediaCodecsXmlParser: disabling c2.android.gsm.decoder
+11-21 18:41:42.901   434   46
