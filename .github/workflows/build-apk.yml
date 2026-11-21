@@ -11,11 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: Arrange project folders
         run: |
-          mkdir -p app/src/main/assets app/src/main/res/values app/src/main/res/mipmap-xxhdpi app/src/main/res/mipmap-xxxhdpi app/src/main/java/com/me/todoapp
+          mkdir -p app/src/main/assets app/src/main/res/values app/src/main/res/layout app/src/main/res/xml app/src/main/res/drawable app/src/main/res/mipmap-xxhdpi app/src/main/res/mipmap-xxxhdpi app/src/main/java/com/me/todoapp
           cp app.build.gradle app/build.gradle
           cp AndroidManifest.xml app/src/main/
           cp styles.xml app/src/main/res/values/
-          cp MainActivity.java Reminders.java AlarmReceiver.java app/src/main/java/com/me/todoapp/
+          cp *.java app/src/main/java/com/me/todoapp/
+          cp widget_small.xml widget_medium.xml app/src/main/res/layout/
+          cp widget_small_info.xml widget_medium_info.xml app/src/main/res/xml/
+          cp widget_bg.xml widget_bg_light.xml pill.xml circle.xml app/src/main/res/drawable/
           cp index.html app/src/main/assets/
           cp ic_launcher.png app/src/main/res/mipmap-xxhdpi/
           cp ic_launcher.png app/src/main/res/mipmap-xxxhdpi/
