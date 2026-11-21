@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -31,6 +32,9 @@ public class MainActivity extends Activity {
     void js(final String code) { web.post(() -> web.evaluateJavascript(code, null)); }
 
     public class Bridge {
+        @JavascriptInterface public void save(String json) { getSharedPreferences("store", 0).edit().putString("data", json).commit(); }
+        @JavascriptInterface public String load() { return getSharedPreferences("store", 0).getString("data", null); }
+        @JavascriptInterface public boolean isSystemDark() { return sysDark(); }
         @JavascriptInterface public void sync(String json) { Reminders.sync(getApplicationContext(), json); }
         @JavascriptInterface public void widget(String json) { Widgets.save(getApplicationContext(), json); }
         @JavascriptInterface public String takePending() { return Widgets.takePending(getApplicationContext()); }
@@ -75,6 +79,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if ((getApplicationInfo().flags & android.content.pm.ApplicationInfo.FLAG_DEBUGGABLE) != 0) WebView.setWebContentsDebuggingEnabled(true);
         web = new WebView(this);
         WebSettings s = web.getSettings();
         s.setJavaScriptEnabled(true);
@@ -87,11 +92,15 @@ public class MainActivity extends Activity {
         web.setWebChromeClient(new WebChromeClient());
         web.addJavascriptInterface(new Bridge(), "TodoNative");
         setContentView(web);
-        if (savedInstanceState != null) web.restoreState(savedInstanceState);
-        else web.loadUrl("file:///android_asset/index.html");
+        web.loadUrl("file:///android_asset/index.html");
         if (Build.VERSION.SDK_INT >= 33 && checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED)
             requestPermissions(new String[]{Manifest.permission.POST_NOTIFICATIONS}, 1);
     }
+
+    boolean sysDark() { return (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES; }
+
+    @Override
+    public void onConfigurationChanged(Configuration c) { super.onConfigurationChanged(c); if (web != null) js("window.__onTheme&&window.__onTheme(" + sysDark() + ")"); }
 
     @Override
     protected void onResume() { super.onResume(); if (web != null) js("window.__onResume&&window.__onResume()"); }
@@ -119,9 +128,6 @@ public class MainActivity extends Activity {
             } catch (Exception e) { }
         }
     }
-
-    @Override
-    protected void onSaveInstanceState(Bundle out) { super.onSaveInstanceState(out); web.saveState(out); }
 
     @Override
     public void onBackPressed() {

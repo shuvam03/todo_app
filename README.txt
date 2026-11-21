@@ -11,3 +11,9 @@ Open build-apk.yml from this folder, copy everything, paste it in the big box. C
 STEP C - get the APK
 Actions tab > "Build APK" > wait for green tick (3-5 min) > open it > Artifacts > Todo-APK.
 Unzip > app-debug.apk > send to phone > open > allow install.
+
+STEP D - phone test report
+The same run also tests the app on a virtual Android phone (adds ~10 min).
+Artifacts > Test-Report. Open results.txt (PASS/FAIL list) and the screenshots.
+If anything says FAIL, send results.txt and the FAIL screenshots to Claude.
+The APK is uploaded before the tests, so you can still install it even if a test fails.
